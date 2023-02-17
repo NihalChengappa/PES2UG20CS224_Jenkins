@@ -13,7 +13,7 @@ pipeline {
 //         sh './output'
 //         echo 'Testing Successful'
 //       }
-    }
+//     }
     stage('Deploy') {
       when {
         expression {
