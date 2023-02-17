@@ -8,11 +8,11 @@ pipeline {
         echo 'Build Successful'
       }
     }
-    stage('Test') {
-      steps {
+//     stage('Test') {
+//       steps {
 //         sh './output'
-        echo 'Testing Successful'
-      }
+//         echo 'Testing Successful'
+//       }
     }
     stage('Deploy') {
       when {
