@@ -11,7 +11,7 @@ pipeline {
     stage('Test') {
       steps {
         sh './output'
-        asease 'Testing Successful'
+        echo 'Testing Successful'
       }
     }
     stage('Deploy') {
